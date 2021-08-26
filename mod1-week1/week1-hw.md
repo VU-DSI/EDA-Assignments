@@ -12,5 +12,5 @@ In this assignment you will learn how to use Rmarkdown files. To complete the th
 
 3. Use your own github repo for class to complete the assignment and 'push' to our class github organization using your own repository. TAs will grade your assignment online. If it is incomplete and given a '0' you will see this in the 'issues' section of github for this repo. Check Brightspace for grades.
 
-3. Due: Sept 2, 11:59 PM.
+3. Due: Sept 1, 11:59 PM.
 
