@@ -1,0 +1,34 @@
+---
+title: "Midterm-EDA-2021"
+author: Student Name
+output: github_document
+pdf_document: default
+editor_options:
+  chunk_output_type: console
+---
+
+# EDA Midterm
+
+## Background: 
+
+- Read the document "midterm_data_doc.pdf" to learn about the data.
+- The data is in the same repository as this file. It is called "midterm_data.csv"
+
+## Exam: Explore the data. 
+
+- Be clear. 
+- At a minimum aim for two well developed, different data visualizations (use two different graphical presentations of the data).
+- Summarize your choices at each major step. 
+- Interpret your findings.
+
+## Hard facts:
+
+- You have two hours: *DUE AT 5:15 pm*
+- You cannot work with other students
+- You *must* email your work in an .rmd file to me (michael.e.shepherd@vanderbilt.edu)
+- You *must* also knit to MD flavored doc and email to me 
+- Yes you can use this file to write your exam in.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
