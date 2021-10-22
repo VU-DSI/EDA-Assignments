@@ -1,0 +1,79 @@
+---
+title: "Missing Data Homework"
+author: "Dr. Michael Shepherd"
+date: "10/21/2021"
+output: html_document
+---
+
+
+*DUE WEDNESDAY 11:59pm*
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(VIM)
+library(naniar)
+library(dplyr)
+library(ggplot2)
+library(mice)
+library(Zelig)
+library(gridExtra)
+library(Amelia)
+
+```
+
+
+# Load the freetrad data from Milner and Kubota (2005). This article studies the effect of democracy on trade policy. The data have been subset to nine countries in Asia from
+1980 to 1999. This dataset includes 9 variables: year (year), country (country),
+average tariff rates (tariff), Polity IV score (polity), total population (pop), gross
+domestic product per capita (gdp.pc), gross international reserves (intresmi), a
+dummy variable signifying whether the country had signed an IMF agreement in
+that year (signed), a measure of financial openness (fivop), and a measure of US
+hegemony. The Polity score is a number between -10 and 10 indicating how democratic a country is. A fully autocratic country would be a -10 while a fully democratic country would be a 10. This measure of US hegemony is the US imports and exports as a percent of the world total imports and exports.
+
+
+
+```{r data}
+data(freetrade)
+```
+
+
+# Question 1: Analyze the data for missingness. Which variables have missing data? How many observations are missing data? Are there combinations of variables that have missingness issues? Create a matrix plot showing the missingness issues facing this data set. 
+
+
+```{r q1}
+
+```
+
+# Question 2: Calculate the correlation between the tariff and the fivop variables using "complete.obs". Create a well-labeled and designed scatterplot of the relationship between these two variables. Discuss your results. 
+
+
+
+```{r q2}
+
+```
+
+
+# Question 3: Are there differences between observations missing and not missing the tariff variable in terms of level of democracy, population, and gross domestic product? 
+
+
+```{r q3}
+
+```
+
+
+# Question 4: Use the Amelia package to impute missing data for the freetrade data set. Extract one of the imputations. Recalcuate the correlation between the tariff and the fivop variables. Create a well-labeled and designed scatterplot of the relationship between these two variables. Do the results differ from the original? If so, how? 
+
+
+```{r q4}
+
+```
+
+
+
+
+
+# References 
+Milner, Helen and Keiko Kubota. 2005. “Why the move to free trade? Democracy and trade policy in the developing countries.” International Organization. 59(1):107–143.
