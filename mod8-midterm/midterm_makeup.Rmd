@@ -1,0 +1,68 @@
+---
+title: "Midterm_Makeup"
+author: "Dr. Michael Shepherd"
+date: "10/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(tidyverse)
+library(tidytext)
+library(ggplot2)
+library(textdata)
+```
+
+  ## Processing data
+1. Import your data into R
+2. Perform any additional cleaning tasks as needed.
+
+```{r}
+# 1. Data on 3000 of Donald Trump's Tweets 2017-2018
+load(url("https://cbail.github.io/Trump_Tweets.Rdata"))
+
+```
+
+
+For tips and tools on how to clean up difficult text data, please visit the TidyText website here: https://www.tidytextmining.com/tidytext.html
+
+ 
+## Word count
+1. Tokenize your corpus and generate a word count.
+2. Using the `TidyText` package, remove stop words and generate a new word count.
+3. Create a visualization of the word count distribution and interpret your results.
+
+
+```{r}
+
+
+```
+
+
+## Tf-idf
+1. Generate a tf-idf measure of words in your dataset.
+2. Create a visualization of the tf-idf measure and interpret your results.
+3. Is the basic word count or the tf-idf more appropriate for your analysis?
+
+
+```{r}
+
+
+```
+
+
+## Sentiment analysis
+1. Using the built-in sentiments from `TidyText`, generate sentiment counts for your words using either the basic word count or tf-idf measure from above.
+2. Create a visualization of the sentiment measure. Interpret your results.
+
+```{r}
+
+
+```
+
+
+
+
+
+
